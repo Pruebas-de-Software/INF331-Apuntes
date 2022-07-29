@@ -1,0 +1,92 @@
+\documentclass[spanish, fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{fourier}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{ amssymb }
+\usepackage[top = 2.5cm, bottom = 2cm, left = 2cm, right = 2cm]{geometry}
+\usepackage{float}
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\setlength{\parindent}{15pt}
+\setlength{\headheight}{40pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[OL]{
+\includegraphics[height=3\baselineskip]{imgs/logo-usm.png}
+}
+\fancyhead[OR]{ INF 331 Pruebas de Software\\Oscar Reyes Hevia\vspace{0.1cm}}
+
+\renewcommand{\contentsname}{Tabla de contenidos}
+
+\begin{document}
+
+
+\thispagestyle{empty}
+\vspace*{0.5cm}
+\begin{center}
+  {
+    \fontsize{45}{47}\bfseries
+    Pruebas de Software
+    \par
+  }
+  \vspace*{1em}
+  {
+    \fontsize{35}{37}\bfseries
+    INF-331
+    \par
+  }
+\end{center}
+\vfill
+\vfill
+\noindent
+\begin{center}
+  \huge\sffamily
+
+\end{center}
+\vfill
+\begin{center}
+
+  \vspace*{5em}
+
+  \date{}
+  \vspace*{2\baselineskip}
+
+  {\large\sffamily
+   Departamento de Informática\\
+   Universidad Técnica Federico Santa María
+  }
+\end{center}
+
+\clearpage
+
+
+\thispagestyle{fancy}
+
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\input{temas/tema1}
+\input{temas/tema2}
+\input{temas/tema3}
+\input{temas/tema4}
+\input{temas/tema5}
+\input{temas/tema6}
+\input{temas/tema7}
+\input{temas/tema8}
+\input{temas/tema9}
+\input{temas/tema10}
+\input{temas/tema11}
+    
+\end{document}
